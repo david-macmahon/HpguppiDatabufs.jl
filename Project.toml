@@ -1,0 +1,8 @@
+name = "HpguppiDatabufs"
+uuid = "f722d36e-4eb8-44c6-8f06-e9434a5c3fdb"
+authors = ["David MacMahon <davidm@astro.berkeley.edu>"]
+version = "0.0.0"
+
+[deps]
+HashpipeDatabufs = "6e2f7c64-92ce-42bb-83af-8f0e5f56b763"
+InterProcessCommunication = "a7427343-1d15-5490-a218-bfcb7db836a2"
