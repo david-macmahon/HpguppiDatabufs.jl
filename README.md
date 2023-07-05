@@ -5,17 +5,14 @@ Live access to the shared memory buffers of an HPGUPPI DAQ process.
 ## Installation
 
 Both this package and [`HashpipeDatabufs.jl`](
-https://github.com/david-macmahon/HashpipeDatabufs.jl) and
-[`InterProcessCommunication.jl`](
-https://github.com/emmt/InterProcessCommunication.jl.git) are not (yet?) in the
-General package registry so the must be installed from GitHub directly.  This
+https://github.com/david-macmahon/HashpipeDatabufs.jl) are not (yet?) in the
+General package registry so they must be installed from GitHub directly.  This
 can be done using `Pkg` functions or using the `Pkg`-mode of the Julia REPL.
 
 ### Using `Pkg` functions
 
 ```julia
 using Pkg
-Pkg.add("https://github.com/emmt/InterProcessCommunication.jl")
 Pkg.add("https://github.com/david-macmahon/HashpipeDatabufs.jl")
 Pkg.add("https://github.com/david-macmahon/HpguppiDatabufs.jl")
 ```
@@ -29,7 +26,6 @@ to `Pkg`-mode. . The prompe will change from `julia>` to `([env]) pkg>`, where
 ```julia
 julia> ]
 (@v1.9) pkg> # Prompt changes immediately upon pressing `]`
-(@v1.9) pkg> add https://github.com/emmt/InterProcessCommunication.jl
 (@v1.9) pkg> add https://github.com/david-macmahon/HashpipeDatabufs.jl
 (@v1.9) pkg> add https://github.com/david-macmahon/HpguppiDatabufs.jl
 ```
